@@ -100,7 +100,7 @@ const FifthContent: React.FC = () => {
       >
         <div className="flex flex-col w-full">
           <label className="pl-6" htmlFor="name">
-            Nome
+            Name
           </label>
           <input
             className=" p-6 border-[2px] border-white rounded-3xl h-[93px] bg-transparent"
@@ -126,7 +126,7 @@ const FifthContent: React.FC = () => {
 
         <div className="flex flex-col w-full">
           <label className="pl-6" htmlFor="message">
-            Mensagem
+            Message
           </label>
           <textarea
             className=" p-6 border-[2px] border-white rounded-3xl h-[140px] bg-transparent"
@@ -147,7 +147,7 @@ const FifthContent: React.FC = () => {
           className="border-[2px] border-white rounded-[30px] bg-transparent w-[172px] h-[55.5px]"
           type="submit"
         >
-          Enviar
+          Submit
         </button>
       </form>
     </div>
